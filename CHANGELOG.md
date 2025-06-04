@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
+## Unreleased (2025-06-04)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`1b155f1`](https://github.com/stdlib-js/stdlib/commit/1b155f118f396a5e2ad21ab2ca50247684109062) - **chore:** change naming and examples for `complex/float32/base/sub` [(#7168)](https://github.com/stdlib-js/stdlib/pull/7168) _(by Shabareesh Shetty)_
 -   [`3a62008`](https://github.com/stdlib-js/stdlib/commit/3a620083a7978286cc05db9231ecbee4d0478e1a) - **feat:** add `complex/float32/base/sub` _(by Gururaj Gurram)_
 
 </details>
@@ -34,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Gururaj Gurram
+-   Shabareesh Shetty
 
 </section>
 

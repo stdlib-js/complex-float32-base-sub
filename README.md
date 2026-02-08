@@ -50,6 +50,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+csubf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-sub@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-float32-base-sub/tags). For example,
+
+```javascript
 csubf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-sub@v0.1.1-umd/browser.js' )
 ```
 
@@ -62,7 +67,7 @@ var csubf = require( 'path/to/vendor/umd/complex-float32-base-sub/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-sub@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-sub@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -106,7 +111,7 @@ var v = csubf( z1, z2 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-sub@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-sub@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 

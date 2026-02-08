@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import csubf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-sub@deno/mod.js';
+import csubf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-sub@v0.1.1-deno/mod.js';
 ```
 
 #### csubf( z1, z2 )
@@ -79,7 +79,7 @@ var v = csubf( z1, z2 );
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import csubf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-sub@deno/mod.js';
+import csubf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-sub@v0.1.1-deno/mod.js';
 
 // Generate arrays of random values:
 var z1 = new Complex64Array( discreteUniform( 200, -50, 50 ) );
